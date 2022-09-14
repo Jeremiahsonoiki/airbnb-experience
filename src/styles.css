@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    position: absolute;
+    width: 550px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.lo-go {
+    position: absolute;
+    width: 82.02px;
+    height: 25.35px;
+    left: 30px;
+    top: 22px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 350px;
+    background: #FFFFFF;
+    border-radius: 8.95px;
+}
+
+.pho-to {
+    position: absolute;
+    width: 395.91px;
+    height: 232px;
+    left: 77px;
+    top: 96px;
+}
+
+.intro-duction {
+    position: absolute;
+    width: 347px;
+    height: 40px;
+    left: 36px;
+    top: 356px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    /* identical to box height, or 40px */
+    color: #000000;
+}
+
+.wo-rd {
+    position: absolute;
+    width: 320px;
+    height: 56px;
+    left: 36px;
+    top: 416px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+    /* or 18px */
+    color: #222222;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: nowrap;   /* This is it */
+    gap: 20px;
+    overflow-x: auto;
+    margin-top: 130px;
+}
+
+section {
+    padding: 20px;
+}
+
+.ima-ge {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card-stats {
+    display: flex;
+    align-items: center;
+}
+
+.star-light {
+    height: 14px;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.container > img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.topic-card {
+    width: 175px;
+    height: 14px;
+    left: 37px;
+    top: 787px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222
+}
+
+.price-person {
+    width: 144px;
+    height: 14px;
+    left: 36px;
+    top: 809px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.graish {
+    width: 23px;
+    height: 14px;
+    left: 96px;
+    top: 765px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #918E9B;
+}
+
+.gray {
+    color: #918E9B;
+    width: 22px;
+    height: 14px;
+    left: 80px;
+    top: 760px;
+}
